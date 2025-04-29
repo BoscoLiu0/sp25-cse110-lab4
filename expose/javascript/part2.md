@@ -100,3 +100,15 @@ function printNums() {
 }
 printNums();
 ```
+**Output:**  
+```
+1  
+4  
+3  
+2
+```
+
+**Explanation:**  
+- 1 and 4 are synchronized outputs  
+- 3 Delayed by 0ms, but still placed in the task queue. 2 Delayed by 1000ms, so finally executed.  
+- 2 Delayed by 1000ms, so executed last
