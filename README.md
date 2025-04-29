@@ -29,7 +29,8 @@ This repository contains the completed materials for **Lab 4** of CSE 110, inclu
 │   │   ├── fix.png                   # Final result after bug fix (Sum: 33)
 │
 ├── expand/
-│   └── expand.md                     # Written reflections on JS design and lab experience
+│   ├── expand.md                     # Written reflections on JS design and lab experience
+│   ├── screenshots
 ```
 
 ---
