@@ -1,4 +1,4 @@
-# Lab 4 - Part 1: JavaScript Variable Declarations
+# Part 1: JavaScript Variable Declarations
 
 ## Question 1
 **What is printed by line 9?**  
