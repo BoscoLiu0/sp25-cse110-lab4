@@ -80,14 +80,23 @@ F. true === Boolean(2) → true // Boolean(2) is true
 `==` does **type coercion**, meaning it converts values to the same type before comparing.  
 `===` checks both **value and type** — no type conversion.
 
-## Question 16: for...in loop (part2-question16.js)
-Print properties of `statistics` if:
-- Key starts with `'r'`
-- Or value is an odd number
+## Question 17: Callback Function Result
 
 ```js
-for (let key in statistics) {
-  if (key[0] === 'r' || statistics[key] % 2 === 1) {
-    console.log(statistics[key]);
-  }
+modifyArray([1, 2, 3], doSomething)
+```
+
+**Output:** `[2, 4, 6]`  
+**Explanation:** `doSomething` doubles each element. Callback is applied to every item using `array.map()` style logic.
+
+## Question 19: Asynchronous Output
+
+```js
+function printNums() {
+  console.log(1);
+  setTimeout(function() { console.log(2); }, 1000);
+  setTimeout(function() { console.log(3); }, 0);
+  console.log(4);
 }
+printNums();
+```
