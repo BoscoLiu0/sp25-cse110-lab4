@@ -54,7 +54,7 @@ This repository contains the completed materials for **Lab 4** of CSE 110, inclu
 ---
 
 ## 📝 Notes
-- All screenshots required for grading are in `explore/screenshots/`.
+- All screenshots required for grading are in `explore/screenshots/` and `expose\pipeline`.
 - No screenshots were required for the `expand` section.
 - This repository was organized following the course template and submission rubric.
 
