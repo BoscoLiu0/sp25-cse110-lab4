@@ -31,7 +31,7 @@ Because `let` is block-scoped, and line 13 is outside the `if` block.
 ## Question 6
 **What is printed by line 9?**  
 Error: `TypeError: Assignment to constant variable.`  
-You cannot reassign a `const` variable after it's initialized.
+cannot reassign a `const` variable after it's initialized.
 
 ## Question 7
 **What is printed by line 13?**  
